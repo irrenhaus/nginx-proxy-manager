@@ -314,6 +314,16 @@ dns_google_domains_zone = "example.com"`,
 		full_plugin_name:    'dns-infomaniak',
 	},
 	//####################################################//
+	internetbs: {
+		display_name:        'internetbs',
+		package_name:        'certbot-dns-internetbs',
+		version_requirement: '~=4.5.0',
+		dependencies:        '',
+		credentials:         `dns_internet_bs_api_key=xxxxxxxxxxxxxxxxxxxxxxxxxx
+dns_internet_bs_password=yyyyyyyyyyyyyyyyyyyyyyyyyy`,
+		full_plugin_name:    'dns-internetbs',
+	},
+	//####################################################//
 	inwx: {
 		display_name:        'INWX',
 		package_name:        'certbot-dns-inwx',
